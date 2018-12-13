@@ -1,3 +1,6 @@
+# re-mote-trial
+Re-mote trial
+
 Чтобы собрать и запустить проект:
 
 1. Должен быть установлен [Yarn](https://yarnpkg.com) (требует установленный [node.js](https://nodejs.org)).
