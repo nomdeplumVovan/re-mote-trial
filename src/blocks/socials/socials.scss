@@ -1,0 +1,35 @@
+.socials {
+  display: flex;
+  justify-content: space-between;
+  // border: 1px solid black;
+  height: 50px;
+  width: 115px;
+
+  &__item {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 50px;
+    height: 50px;
+
+    &--fb {
+      background-image: url(../img/facebookRed.svg);      
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      &:hover{
+        background-image: url(../img/facebook.png); 
+      }
+    }
+
+    &--tw {
+      background-image: url(../img/twitterRed.svg);
+      // background-color: black;
+      width: 50px;
+      height: 50px;
+      &:hover{
+        background-image: url(../img/twitter.png); 
+      }
+    }
+  }
+}

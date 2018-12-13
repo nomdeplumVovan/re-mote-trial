@@ -1,0 +1,43 @@
+.front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-image: url(../img/front__bg.jpg);
+  background-size: 1920px auto;
+  background-position: left bottom;
+  width: 1920px;
+  height: 900px;
+
+
+  /* Пример медиа-запроса. Подробнее здесь: https://getbootstrap.com/docs/4.1/layout/overview/#responsive-breakpoints */
+
+  @include media-breakpoint-down(md) {
+    //    min-height: 0;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {      
+      margin-top: 28px;
+      width: 584px;
+      height: 101px;
+    }
+  }
+
+  &__dscr {
+    font-size: 18px;
+    text-align: center;
+    width: 700px;
+    height: 60px;
+    margin-top: -2px;
+  }
+}
