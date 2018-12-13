@@ -1,0 +1,19 @@
+.input {
+  @include placeholder(#E0E0E0);
+  border: 1px solid #BDBDBD;
+  border-radius: 4px;
+  width: 424px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+
+  &[type=text]{
+    margin-top: 10px;
+  }
+
+  &--textarea {
+    width: 424px;
+    height: 150px;
+    padding-top: 7px;
+  }
+}
