@@ -1,22 +1,41 @@
 /* Slick */
 
 .slick-dots {
-  
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
   li {
-    
+
+    list-style-type: none;
     & + li {
-      
+      list-style-type: none;
     }
     
     &.slick-active {
       
       button {
-        
+        border: 1px solid #E0E0E0;
+        background-color: #C4C4C4;
+        color: transparent;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        // margin: 20px;
       }
     }
     
     button {
-      
+      border: 1px solid #E0E0E0;
+      background-color: #ffffff;
+      color: transparent;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px; 
+      margin: 15px;
     }
   }
+}
+.slick-arrow{
+display: none;
+visibility: hidden;
 }
