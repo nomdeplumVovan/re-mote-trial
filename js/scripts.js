@@ -26,6 +26,7 @@ tpl:'<div class="fancybox-share"><h1>{{SHARE}}</h1><p><a class="fancybox-share__
 
 $('.picture').fancybox();
 
+
 // $('.single-item').slick();
 
 $('.one-time').slick({
@@ -35,6 +36,5 @@ $('.one-time').slick({
   slidesToShow: 1,
   adaptiveHeight: true
 });
-
 
 
