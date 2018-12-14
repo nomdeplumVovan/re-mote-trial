@@ -15,5 +15,11 @@
     width: 424px;
     height: 150px;
     padding-top: 7px;
+    @media (max-width: 425.98px){
+      width: 288px;
+    }
+  }
+  @media (max-width: 425.98px){
+    width: 288px;
   }
 }

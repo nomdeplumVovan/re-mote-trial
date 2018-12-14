@@ -5,4 +5,22 @@
   justify-content: center;
   width: 426px;
   height: 441px;
+  margin-left: 50px;
+
+  @media (max-width: 1440.98px) {
+    // margin-left: 0;
+  }
+
+  @media (max-width: 425.98px) {
+    width: 290px;
+    margin-left: 0;
+  }
+}
+
+.col-lg-4 {
+  @media (max-width: 425.98px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
