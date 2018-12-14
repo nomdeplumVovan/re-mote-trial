@@ -8079,10 +8079,6 @@ body {
   width: 425px;
   height: 470px;
   margin: 0 15px 30px; }
-  @media (max-width: 425.98px) {
-    .item {
-      width: 290px;
-      margin: 0 0 30px; } }
   .item__picture {
     background-image: url(../img/item__picture.png);
     background-repeat: no-repeat;
@@ -8169,7 +8165,13 @@ body {
 @media (max-width: 991.98px) {
   .item {
     width: 350px;
-    margin: 0 0 30px; }
+    margin: 0 0 30px; } }
+  @media (max-width: 991.98px) and (max-width: 425.98px) {
+    .item {
+      width: 290px;
+      margin: 0 0 30px; } }
+
+@media (max-width: 991.98px) {
     .item:nth-child(1),
     .item:nth-child(4) {
       margin-left: 0; }
