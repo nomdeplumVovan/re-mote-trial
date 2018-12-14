@@ -10,7 +10,11 @@
   width: 425px;
   height: 470px;
   margin: 0 15px 30px;
-  
+  @media (max-width: 425.98px) {
+    width: 290px;
+    margin: 0 0 30px;
+  }
+
   &__picture {
     background-image: url(../img/item__picture.png);
     background-repeat: no-repeat;
